@@ -1,0 +1,85 @@
+/* btnMs */
+.btnMs{
+    padding: 10px 32px;
+    background: var(--gradiant);
+    color: var(--cl-txt-title);
+    text-decoration: none;
+    font-family: var(--font-mono);
+    font-size: var(--fz-txt-button);
+    font-weight: var(--wg-n);
+    border-radius: 5px;
+}
+
+.linea {
+    width: calc(100% - 400px);
+    border-top: 1px solid rgba(255, 255, 255, 0.231);
+    height: 2px;
+    padding: 0;
+}
+
+/* Section Inicio */
+section{
+    width: 100%;
+    max-width: 1000px;
+    margin: 0px auto;
+    height: calc(100vh - 75px);
+    max-height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contentInicio{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.contentInicio h1{
+    font-size: var(--fz-title-big);
+    font-family: 'Panchang';
+    font-weight: 800;
+    background: var(--gradiant);
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-align: center;
+    margin: 0px;
+}   
+
+.contentInicio p{
+    font-family: var(--font-sans);
+    font-size: var(--fz-paragraph);
+    color: var(--cl-text-paragraph);
+    text-align: center;
+    max-width: 500px;
+    margin-bottom: 30px;
+}
+
+/* Section Sobremi */
+.contentSobremi{
+    width: 100%;
+    height: 100%;
+}
+
+.titleSobremi{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.titleSobremi h1{
+    font-family: var(--font-sans);
+    font-size: var(--fz-subtitle);
+    color: var(--cl-txt-title);
+}
+
+.titleSobremi h1::before{
+    content: "";
+    border-top: 0.3px solid #ffffff4c;;
+}
+
+.fechContent p{
+    font-family: var(--font-mono);
+    color: var(--cl-text-paragraph);
+}
