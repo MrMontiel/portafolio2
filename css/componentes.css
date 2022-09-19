@@ -1,0 +1,514 @@
+/* btnMs */
+.btnMs{
+    padding: 10px 32px;
+    background: var(--gradiant);
+    color: var(--cl-txt-title);
+    text-decoration: none;
+    font-family: var(--font-mono);
+    font-size: var(--fz-txt-button);
+    font-weight: var(--wg-n);
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+
+/* .......................... Section Inicio .......................... */
+section{
+    display: flex;
+    -moz-box-pack: center;
+    justify-content: center;
+    -moz-box-align: center;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+    max-width: 1000px;
+    padding: 20px;
+    box-sizing: border-box;
+    margin: 0px auto;
+}
+
+#inicio{
+    min-height: 100vh;
+}
+
+.contentInicio{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.contentInicio h1{
+    font-size: var(--fz-title-big);
+    font-family: var(--font-tile);
+    font-weight: 800;
+    background: var(--gradiant);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+    text-align: center;
+    margin-bottom: 20px;
+    text-align: center;
+}   
+
+.contentInicio p{
+    font-family: var(--font-sans);
+    font-size: var(--fz-paragraph);
+    color: var(--cl-text-paragraph);
+    text-align: center;
+    max-width: 500px;
+    margin-bottom: 30px;
+}
+
+
+/* .......................... Section Sobremi .......................... */
+.contentSobremi, .contentProyectos, .contentReferencias, .contentContactame{
+    width: 100%;
+    height: 100%;
+}
+
+#sobremi, #proyectos, #referencias, #contactame{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.titles h1{
+    font-family: var(--font-sans);
+    font-size: var(--fz-subtitle);
+    color: var(--cl-txt-title);
+    margin-bottom: 7px;
+}
+
+
+.titles p{
+    font-family: var(--font-mono);
+    color: var(--cl-text-paragraph);
+}
+
+.contentSobremiText{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+
+.textSobremi{
+    width: 50%;
+    margin-right: 50px;
+}
+
+.textSobremi p{
+    font-family: var(--font-sans);
+    font-size: var(--fz-paragraph);
+    color: var(--cl-text-paragraph);
+    margin-bottom: 10px;
+}
+
+.listHerr ul{
+    list-style: none;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.herr{
+    box-sizing: border-box;
+    padding: 7px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 32px;
+    font-family: var(--font-sans);
+    color: var(--cl-txt-title);
+    font-size: var(--fz-txt-button);
+}
+
+.python{
+    background: var(--gradiant-yellow);
+}
+.listHerr ul .java{
+    background: var(--gradiant-purple);
+}
+.listHerr ul .html{
+    background: var(--gradiant-orange);
+}
+.listHerr ul .css{
+    background: var(--gradiant-blue);
+}
+
+.imageSobremi img{
+    width: 450px;
+}
+
+/* .......................... Proyectos .......................... */
+
+.contetnNavProyectos {
+    margin-top: 40px;
+}
+
+.contetnNavProyectos a{
+    text-decoration: none;
+    font-family: var(--font-sans);
+    font-size: var(--fz-txt-button);
+    color: var(--cl-text-paragraph);
+    margin-right: 20px;
+}
+
+.contentPro{
+    margin-top: 20px;
+}
+
+.project{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 25px;
+    margin-top: 20px;
+}
+
+.pro{
+    width: 100%;
+    height: 300px;
+    background-color: var(--bg-dark-ligth);
+    box-sizing: border-box;
+    padding: 20px;
+    position: relative;
+    border-radius: 23px;
+}
+
+.pro header{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 10px;
+}
+
+.pro header a:first-child{
+    margin-right: 10px;
+}
+
+.pro header ion-icon {
+    font-size: 24px;
+    color: var(--cl-text-paragraph);
+}
+
+.contentProjects p{
+    font-size: var(--fz-paragraph);
+    font-family: var(--font-sans);
+    color: var(--cl-text-paragraph);
+    margin-top: 15px;
+}
+
+.contentProjects h2{
+    font-family: var(--font-sans);
+    color: var(--cl-txt-title);
+}
+
+
+.footerPro{
+    display: flex;
+    align-items: center;
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+}
+
+.footerPro p{
+    text-align: left;
+    font-family: var(--font-sans);
+    font-size: var(--fz-txt-button); 
+    color: var(--blue-ligth);
+    margin-right: 15px;
+}
+
+/* .......................... Referencias Personales .......................... */
+
+.cardRefe{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 25px;
+    margin-top: 40px;
+}
+
+.Refe{
+    width: 100%;
+
+    position: relative;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+
+}
+
+.personalImg{
+    position: relative;
+    top: -30px;
+}
+
+.card{
+    width: 100%;
+    height: 186px;
+    box-sizing: border-box;
+    padding: 20px;
+    background-color: var(--bg-dark-ligth);
+    border-radius: 23px;  
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.card img.comillas{
+    width: 40px;
+}
+
+.card p.textRef{
+    font-family: var(--font-sans);
+    font-size: var(--fz-paragraph);
+    color: var(--cl-text-paragraph);
+    margin: 10px;
+}
+
+.carlosSalda, .luisMontes{
+    margin-top: 50px;
+}
+
+.personalImg h3{
+    font-family: var(--font-sans);
+    color: var(--cl-txt-title);
+    margin-top: 10px;
+}
+
+.personalImg p{
+    font-family: var(--font-italic);
+    font-style: italic;
+    color: var(--cl-text-paragraph);
+}
+
+/* .......................... Contactame .......................... */
+
+.formContactame{
+    display: flex;
+    margin-top: 40px;
+} 
+
+
+.formContact{
+    width: 70%;
+}
+
+.formContact p{
+    font-family: var(--font-sans);
+    color: var(--cl-text-paragraph);
+    font-size: var(--fz-paragraph);
+    margin-top: 20px;
+}
+
+.contentInputs{
+    border: none;
+    padding: 0;
+    margin-top: 20px;
+}
+
+.formContact input{
+    width: 100%;
+    height: 40px;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+}
+
+.formContact input, .formContact textarea{
+    background-color: var(--bg-dark-ligth);
+    padding: 10px 10px;
+    border-radius: 5px;
+    border:none;
+    font-family: var(--font-sans);
+    color: var(--cl-text-paragraph);
+    font-size: var(--fz-txt-button);
+}
+
+.formContact input:focus, .formContact textarea:focus{
+    outline: none;
+    border: 1px solid var(--blue-ligth);
+    box-shadow: 0px 0px 4px var(--blue-dark);
+}
+
+.formContact textarea{
+    width: 100%;
+    height: 150px;
+    resize: none;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+}
+
+.formContact button{
+    width: 100%;
+    height: 40px;
+}
+
+
+.formImg p{
+    width: 350px;
+    font-family: var(--font-sans);
+    font-size: var(--fz-paragraph);
+    color: var(--cl-text-paragraph);
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* .......................... Footer .......................... */
+
+#footer{
+    width: 100%;
+    height: max-content;
+    background-color: var(--bg-dark);
+    box-sizing: border-box;
+    padding: 20px 40px;
+}
+
+.contentFooter{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.author{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.author div{
+    display: flex;
+    margin-top: 5px;
+}
+
+.author div p{
+    padding: 0 5px;
+}
+
+.author p{
+    font-family: var(--font-mono);
+    color: var(--cl-text-paragraph);
+    font-size: var(--fz-paragraph);
+}
+
+.socialL a{
+    text-decoration: none;
+    color: var(--cl-text-paragraph);
+}
+
+.socialL a:first-child{
+    margin-right: 10px;
+}
+.socialL a:last-child{
+    margin-left: 10px;
+}
+
+.socialL a ion-icon{
+    font-size: 24px;
+    
+}
+
+
+/* .......................... Media Queris .......................... */
+
+@media screen and (max-width: 920px){
+    .contentInicio h1{
+        width: 100%;
+        font-size: var(--fz-title-big-mb);
+    }
+
+    .contentSobremiText{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .textSobremi{
+        width: 100%;
+        margin-right: 0px;
+    }
+
+    .imageSobremi{
+        margin-top: 20px;
+    }
+
+    .imageSobremi img{
+        width: 100%;
+    }
+
+    .titles h1{
+        font-size: var(--fz-subtitle-mb);
+    }
+
+    section{
+        max-width: 820px;
+    }
+
+    .carlosSalda, .luisMontes{
+        margin-top: 0;
+    }
+
+    .formContactame{
+        flex-direction: column-reverse;
+    }
+
+    .formContact{
+        width: 100%;
+    }
+
+    .formContact input{
+        width: 48.5%;
+    }
+
+    .contentInputs{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .formImg{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .contentFooter{
+        flex-direction: column;
+    }
+
+    .contentFooter .socialL{
+        margin-bottom: 10px;
+    }
+
+    .idioma{
+        display: none;
+    }
+
+}
+
+
+@media screen and (max-width: 428px){
+    .formContact input{
+        width: 100%;
+    }
+
+    .contentInputs{
+        flex-direction: column;
+    }
+
+    .titles h1{
+        font-size: var(--fz-subtitles-x428px);
+    }
+
+
+}

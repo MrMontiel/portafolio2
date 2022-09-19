@@ -1,18 +1,28 @@
 :root{
     --bg-dark: #101020;
+    --bg-dark-ligth: #1F1F31;
     --cl-txt-title: #FFFFFF;
     --cl-text-paragraph: #A8A9C2;
     --blue-dark: #4F3CE9;
     --blue-ligth: #388FFE;
     --gradiant: linear-gradient(90.6deg, #4F3CE9 0.52%, #388FFE 62.56%);
+    --gradiant-yellow: rgba(255, 184, 0, 0.15);
+    --gradiant-blue:rgba(56, 143, 254, 0.15);
+    --gradiant-orange:rgba(255, 92, 0, 0.15);
+    --gradiant-purple: rgba(79, 60, 233, 0.15);
 
     --fz-paragraph: 14px;
     --fz-title-big: 98px;
+    --fz-title-big-mb: 52px;
     --fz-subtitle: 30px;
+    --fz-subtitle-mb: 27px;
+    --fz-subtitles-x428px: 24px;
     --fz-txt-button: 14px;
 
     --font-mono: 'Inconsolata', monospace;
     --font-sans: 'Poppins', sans-serif;
+    --font-tile: 'Panchang-Extrabold';
+    --font-italic:'ABeeZee', sans-serif; 
 
     --wg-r: 400;
     --wg-m: 500;
@@ -21,11 +31,12 @@
 
 *{
     margin: 0;
-    padding: 0;
-    background-color: var(--bg-dark);
+    padding: 0; 
 }
 
-
+body{
+    background-color: var(--bg-dark);
+}
 
 /* Statics */
 /* Header */
@@ -69,13 +80,13 @@
     text-decoration: none;
     font-size: var(--fz-txt-button);
     font-family: var(--font-mono);
-    color: var(--cl-txt-title);
+    color: var(--cl-text-paragraph);
 }
 
 .contentNav a:last-child{
     padding-right: 0;
 }
-.contentNav  a:hover, .contentNav a.activate{
+.contentNav  a:hover, .contentNav a.activate, .contetnNavProyectos a:hover, .contetnNavProyectos a.activate{
     color: var(--blue-ligth);
 }
 
@@ -83,6 +94,25 @@
     color: var(--blue-ligth);
 }
 
+.btn{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: var(--blue-dark);
+    box-shadow: -2px 4px 26px rgba(0, 0, 0, 0.28);
+    position: fixed;
+    bottom: 70px;
+    right: 40px;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+
+.btn ion-icon{
+    font-size: 24px;
+}
 
 
 @media screen and (max-width: 768px){
@@ -107,5 +137,9 @@
 
     .contentHeader svg path{
         fill: var(--cl-txt-title);
+    }
+
+    .btn {
+        right: 20px;
     }
 }

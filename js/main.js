@@ -12,3 +12,27 @@ for(let i = 0; i<linkNav.length; i++){
         this.className += " activate"
     })
 }
+
+
+// Scroll - btnTop
+const btnTop = document.getElementById("btn");
+
+window.onscroll = () => {
+    scrollFunction();
+};
+
+const scrollFunction = () => {
+    if (
+        document.body.scrollTop > 10 ||
+        document.documentElement.scrollTop > 10
+    ) {
+        btnTop.style.display = "flex";
+    } else {
+        btnTop.style.display = "none";
+    }
+};
+
+const topFuction = () => {
+    document.body.scrollTop = 0;
+    document.documentElement.scrollTop = 0;
+};

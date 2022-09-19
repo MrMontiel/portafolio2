@@ -1,62 +1,255 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <!-- Etiquetas Meta -->
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="author" content="Luis David Montiel Montes">
-    <meta name="keyword" content="portafolio, web design, luis, david, montiel, web developer">
+  <head>
+    <!-- Etiquetas Meta, SEO -->
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Luis David Montiel Montes" />
+    <meta name="keyword" content="portafolio, web design, luis, david, montiel, web developer"/>
+    <link rel="shortcut icon" href="./image/logo-page.svg" type="image/x-icon">
     <!-- CSS -->
-    <link rel="stylesheet" href="./css/style.css">
-    <link rel="stylesheet" href="./css/components.css">
-    <!-- FONTS -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@200;300;400;500;600;700;800;900&display=swap" rel="stylesheet"> 
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/componentes.css" />
+    <link rel="stylesheet" href="./css/normalize.css" />
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@200;300;400;500;600;700;800;900&display=swap" rel="stylesheet"/>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet"/>
+    <link href="https://fonts.googleapis.com/css2?family=ABeeZee:ital@0;1&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="./fonts/Panchang_Complete/Fonts/WEB/css/panchang.css"/>
     <title>Portafolio | Luis Montiel</title>
-</head>
-<body>
+  </head>
+  <body>
     <div id="root">
-        <header id="header" class="header-nav">
-            <div class="contentHeader">
-                <a href="/" class="logo"><img src="./image/logo-page.svg" alt="Logo Portafolio Luis Montiel"></a>
-                <svg xmlns="http://www.w3.org/2000/svg" height="48" width="48" class="hambur">
-                    <path d="M5.55 36.55V32.9H42.5v3.65Zm0-10.75v-3.65H42.5v3.65Zm0-10.7v-3.65H42.5v3.65Z" />
-                </svg>
-                <div class="nav" id="nav">
-                    <div id="contentNav" class="contentNav">
-                        <a class="linkNav" href="/#sobremi" ><span>01.</span> Sobre mi</a>
-                        <a class="linkNav" href="/#proyectos" ><span>02.</span> Proyectos</a>
-                        <a class="linkNav" href="/#referencias" ><span>03.</span> Referencias</a>
-                        <a class="linkNav" href="/#contactame" ><span>04.</span> Contactame</a>
+      <header id="header" class="header-nav">
+        <div class="contentHeader">
+          <a href="/" class="logo"
+            ><img
+              src="./image/logo-page.svg"
+              alt="Logo Portafolio Luis Montiel"
+          /></a>
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            height="48"
+            width="48"
+            class="hambur"
+          >
+            <path
+              d="M5.55 36.55V32.9H42.5v3.65Zm0-10.75v-3.65H42.5v3.65Zm0-10.7v-3.65H42.5v3.65Z"
+            />
+          </svg>
+          <nav class="nav" id="nav">
+            <div id="contentNav" class="contentNav">
+              <a class="linkNav" href="/#sobremi"><span>01.</span> Sobre mi</a>
+              <a class="linkNav" href="/#proyectos"
+                ><span>02.</span> Proyectos</a
+              >
+              <a class="linkNav" href="/#referencias"
+                ><span>03.</span> Referencias</a
+              >
+              <a class="linkNav" href="/#contactame"
+                ><span>04.</span> Contactame</a
+              >
+            </div>
+          </nav>
+        </div>
+      </header>
+      <section id="inicio">
+        <div class="contentInicio">
+          <h1>Luis Montiel</h1>
+          <p>
+            Hola soy estudiante y diplomado en Desarrollo de Software en el
+            proyecto Misión TIC 2022. Con buenas bases en Diseño UX/UI y
+            maquetación.
+          </p>
+          <a class="btnMs" href="javascript:void(0)">Resumen</a>
+        </div>
+      </section>
+      <section id="sobremi">
+        <div class="contentSobremi">
+          <div class="titles">
+              <h1>Contemos una historia ~</h1>
+              <p>05/09/2003</p>
+          </div>
+          <div class="contentSobremiText">
+            <div class="textSobremi">
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin
+                tincidunt est sed pharetra gravida. Pellentesque sed suscipit
+                elit, sed faucibus est. Quisque ut neque ante. In eget finibus
+                sapien. Vivamus vel nulla orci. Nunc maximus nisi nec lacus
+                vestibulum congue. Nulla consectetur eu lorem eu interdum.
+              </p>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin
+                tincidunt est sed pharetra gravida. Pellentesque sed suscipit
+                elit, sed faucibus est.
+              </p>
+              <div class="listHerr">
+                <ul>
+                    <li class="herr python">Python</li>
+                    <li class="herr java">Java</li>
+                    <li class="herr html">HTML</li>
+                    <li class="herr css">CSS</li>
+                </ul>
+              </div>
+            </div>
+            <div class="imageSobremi">
+              <img src="./image/imgProfile.png" alt="" />
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="proyectos">
+        <div class="contentProyectos">
+            <div class="titles">
+                <h1>Proyectos ~</h1>
+            </div>
+            <div class="contentProyectosNav">
+                <nav>
+                    <div class="contetnNavProyectos">
+                        <a href="javascript:void(0)" class="activate">Nuevos</a>
+                        <a href="javascript:void(0)">Viejos</a>
+                        <a href="javascript:void(0)">Todos</a>
                     </div>
-                </div>
+                </nav>
+                <div class="contentPro">
+                    <div class="project">
+                      <div class="pro">
+                        <header>
+                            <a href="https://github.com/MrMontiel/medioAmbiente.git" target="_blank" class="github">
+                                <ion-icon name="logo-github"></ion-icon>
+                            </a>
+                            <a href="https://stupendous-fairy-ba9459.netlify.app/" target="_blank">
+                                <ion-icon name="open-outline"></ion-icon>
+                            </a>
+                        </header>
+                        <div class="contentProjects">
+                          <h2>El Medio Ambiente</h2>
+                          <p>
+                            El medio ambiente es el conjunto de componentes físicos,
+                            químicos, biológicos, de las personas o de la sociedad en su
+                            conjunto...
+                          </p>
+                        </div>
+                        <div class="footerPro">
+                          <p>HTML</p>
+                          <p>CSS</p>
+                          <p>Javascript</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
             </div>
-        </header>
-        <section id="inicio">
-            <div class="contentInicio">
-                <h1>Luis Montiel</h1>
-                <p>Hola soy estudiante y diplomado en Desarrollo de Software en el proyecto Misión TIC 2022. 
-                    Con buenas bases en Diseño UX/UI y maquetación.
-                    
-                </p>
-                <a class="btnMs" href="javascript:void(0)">Resumen</a>
-            </div>
-        </section>
-        <section id="sobremi">
-            <div class="contentSobremi">
-                <div class="titleSobremi">
-                    <h1>Contemos una historia ~</h1><div class="linea"></div>
-                </div>
-                <div class="fechContent">
-                    <p>05/09/2003</p>
-                </div>
-            </div>
-        </section>
-    </div>
+        </div>
+      </section>
+      <section id="referencias">
+        <div class="contentReferencias">
+          <div class="titles">
+            <h1>Referencias Personales ~</h1>
+          </div>
+          <div class="cardRefe">
+            <div class="Refe carlosSalda">
+              <div class="card">
+                <img src="./image/comillasRef.svg" alt="" class="comillas">
+                <p class="textRef">Él ha trabajado conmigo como Freelance y me ha demostrado que vale lo que sabe.</p>
 
+              </div>
+              <div class="personalImg">
+                <img src="./image/carlosImg.png" alt="">
+                <h3>Carlos Saldarriaga</h3>
+                <p>Python Developer</p>
+              </div>
+            </div>
+            <div class="Refe darcyMontiel">
+              <div class="card">
+                <img src="./image/comillasRef.svg" alt="" class="comillas">
+                <p class="textRef">Luis es un chico responsable, orientado al logro, busca siempre lograr lo que se propone.</p>
+
+              </div>
+              <div class="personalImg">
+                <img src="./image/darcyImg.png" alt="">
+                <h3>Darcelys Montiel</h3>
+                <p>Communicator</p>
+              </div>
+            </div>
+            <div class="Refe luisMontes">
+              <div class="card">
+                <img src="./image/comillasRef.svg" alt="" class="comillas">
+                <p class="textRef">Aenean tristique lectus neque, at suscipit purus tempus in. Vestibulum nulla turpis.</p>
+
+              </div>
+              <div class="personalImg">
+                <img src="./image/luisImg.png" alt="">
+                <h3>Luis Montes</h3>
+                <p>Human Management</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="contactame">
+        <div class="contentContactame">
+          <div class="titles">
+            <h1>Contactame ~</h1>
+          </div>
+          <div class="formContactame">
+            <div class="form">
+              <form action="" class="formContact">
+                <p>Aenean tristique lectus neque, at suscipit purus tempus in. Vestibulum nulla turpis, ornare nec sem pulvinar.</p>
+                <fieldset class="contentInputs">
+                  <input type="text" name="nombre" placeholder="Nombre">
+                  <input type="email" name="correo" placeholder="Correo">
+                </fieldset>
+                <textarea name="mensaje" id="" cols="30" rows="10" placeholder="Mensaje"></textarea>
+                <button type="submit" class="btnMs">Enviar</button>
+              </form>
+            </div>
+            <div class="formImg">
+              <img src="./image/hombre-de-influencia 1.png" alt="">
+              <p>Aenean tristique lectus neque, at suscipit purus tempus in. Vestibulum nulla turpis, ornare nec sem pulvinar.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <div id="btn" class="btn" onclick="topFuction()">
+        <ion-icon name="arrow-up-outline"></ion-icon>
+      </div>
+      <footer id="footer">
+        <div class="contentFooter">
+          <div class="socialL">
+            <a href="/">
+              <ion-icon name="logo-github"></ion-icon>
+            </a>
+            <a href="/">
+              <ion-icon name="logo-linkedin"></ion-icon>
+            </a>
+            <a href="/">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+          </div>
+          <div class="author">
+            <p>Diseñado y Creado por Luis Montiel</p>
+            <div>
+              <p>HTML</p>
+              <p>CSS</p>
+              <p>Javascript</p>
+            </div>
+          </div>
+          <div class="idioma">
+            <select name="idioma" id="selectIdioma">
+              <option value="español">Es</option>
+              <option value="ingles">En</option>
+            </select>
+          </div>
+        </div>
+      </footer>
+    </div>
+    <!-- Javascript -->
     <script src="./js/main.js"></script>
-</body>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+  </body>
 </html>
