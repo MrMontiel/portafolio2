@@ -69,8 +69,6 @@ body{
     display: none;
 }
 
-
-
 .contentNav{
     display: flex;
 }
@@ -101,7 +99,7 @@ body{
     background-color: var(--blue-dark);
     box-shadow: -2px 4px 26px rgba(0, 0, 0, 0.28);
     position: fixed;
-    bottom: 70px;
+    bottom: 40px;
     right: 40px;
     display: none;
     align-items: center;
@@ -120,9 +118,6 @@ body{
         display: flex;
     }
 
-    .nav{
-        display: none;
-    }
 
     #header{
         padding: 20px 20px;

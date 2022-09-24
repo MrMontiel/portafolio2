@@ -36,3 +36,9 @@ const topFuction = () => {
     document.body.scrollTop = 0;
     document.documentElement.scrollTop = 0;
 };
+
+// nav
+let nav = document.getElementById("nav").innerHTML
+let openNav = document.getElementById("openNav");
+
+openNav.innerHTML = nav
