@@ -23,8 +23,8 @@ window.onscroll = () => {
 
 const scrollFunction = () => {
     if (
-        document.body.scrollTop > 10 ||
-        document.documentElement.scrollTop > 10
+        document.body.scrollTop > 30 ||
+        document.documentElement.scrollTop >30
     ) {
         btnTop.style.display = "flex";
     } else {
