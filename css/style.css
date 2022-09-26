@@ -112,6 +112,30 @@ body{
     font-size: 24px;
 }
 
+/* Snackbar */
+#snackbar {
+    background-color: var(--bg-dark-ligth);
+    color: var(--cl-txt-title);
+    font-family: var(--font-sans);
+    font-size: var(--fz-paragraph);
+    padding: 10px;
+    width: min(100%, 400px);
+    position: fixed;
+    bottom: 10px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    transform: translateY(200px);
+    transition: all 300ms;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  #snackbar.show {
+    transform: translateY(0);
+  }
+
 
 @media screen and (max-width: 768px){
     .hambur{

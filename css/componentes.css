@@ -74,6 +74,10 @@ section{
     margin-bottom: 100px;
 }
 
+.titles{
+    margin-bottom: 50px;
+}
+
 .titles h1{
     font-family: var(--font-sans);
     font-size: var(--fz-subtitle);
@@ -165,7 +169,7 @@ section{
 .project{
     width: 100%;
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(230px, 1fr));
     gap: 25px;
     margin-top: 20px;
 }
@@ -177,7 +181,7 @@ section{
     box-sizing: border-box;
     padding: 20px;
     position: relative;
-    border-radius: 23px;
+    border-radius: 7px;
 }
 
 .pro header{
@@ -422,6 +426,10 @@ section{
 .socialL a ion-icon{
     font-size: 24px;
     
+}
+
+.show {
+    display: block;
 }
 
 
