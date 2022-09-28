@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSS -->
+    <link rel="stylesheet" href="../css/style.css" />
+    <link rel="stylesheet" href="../css/componentes.css" />
+    <link rel="stylesheet" href="../css/normalize.css" />
+    <link rel="stylesheet" href="../css/pushbar.min.css">
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@200;300;400;500;600;700;800;900&display=swap" rel="stylesheet"/>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet"/>
+    <link href="https://fonts.googleapis.com/css2?family=ABeeZee:ital@0;1&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="../fonts/Panchang_Complete/Fonts/WEB/css/panchang.css"/>
+    <title>Luis Montiel | Sobre mi</title>
+</head>
+<body>
+    <div id="root-about" class="pushbar_main_content pushbar_blur">
+        <header id="header" class="header-nav">
+            <div class="contentHeader">
+              <a href="/" class="logo"><img src="../image/logo-page.svg" alt="Logo Portafolio Luis Montiel"/></a>
+              <svg xmlns="http://www.w3.org/2000/svg" height="48" width="48" class="hambur" data-pushbar-target="mypushbar1" id="hambur">
+                <path d="M5.55 36.55V32.9H42.5v3.65Zm0-10.75v-3.65H42.5v3.65Zm0-10.7v-3.65H42.5v3.65Z"/>
+              </svg>
+              <nav class="nav" id="nav" >
+                <div id="contentNav" class="contentNav">
+                    <a class="linkNav reveal-inicio" href="../index.html"><span>01.</span> Inicio</a>
+                  <a class="linkNav reveal-sobre-mi activate" href="./about.html"><span>02.</span> Sobre mi</a>
+                  <a class="linkNav reveal-proyectos" href="./project.html"><span>03.</span> Proyectos</a>
+                  <a class="linkNav reveal-contactame" href="./contact.html"><span>04.</span> Contactame</a>
+                </div>
+              </nav>
+            </div>
+        </header>
+        <section id="sobremi" class="section1">
+            <div class="contentSobremi">
+              <div class="titles">
+                  <h1>Contemos una historia ~</h1>
+                  <p>05/09/2003</p>
+              </div>
+              <div class="contentSobremiText">
+                <div class="textSobremi">
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin
+                    tincidunt est sed pharetra gravida. Pellentesque sed suscipit
+                    elit, sed faucibus est. Quisque ut neque ante. In eget finibus
+                    sapien. Vivamus vel nulla orci. Nunc maximus nisi nec lacus
+                    vestibulum congue. Nulla consectetur eu lorem eu interdum.
+                  </p>
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin
+                    tincidunt est sed pharetra gravida. Pellentesque sed suscipit
+                    elit, sed faucibus est.
+                  </p>
+                  <div class="listHerr">
+                    <ul>
+                        <li class="herr python">Python</li>
+                        <li class="herr java">Java</li>
+                        <li class="herr html">HTML</li>
+                        <li class="herr css">CSS</li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="imageSobremi">
+                  <img src="../image/imgProfile.png" alt="" />
+                </div>
+              </div>
+            </div>
+        </section>
+        <div id="openNav"  data-pushbar-id="mypushbar1" data-pushbar-direction="right">
+            <ion-icon name="close-outline"></ion-icon>
+        </div>
+        <div id="btn" class="btn">
+            <ion-icon name="arrow-up-outline"></ion-icon>
+        </div>
+        <footer id="footer">
+            <div class="contentFooter">
+                <div class="socialL">
+                  <a href="https://github.com/MrMontiel" target="_blank">
+                    <ion-icon name="logo-github"></ion-icon>
+                  </a>
+                  <a href="https://www.linkedin.com/in/ld-montiel/" target="_blank">
+                    <ion-icon name="logo-linkedin"></ion-icon>
+                  </a>
+                  <a href="https://www.instagram.com/ldmontielm/" target="_blank">
+                    <ion-icon name="logo-instagram"></ion-icon>
+                  </a>
+              </div>
+              <div class="author">
+                <p>Diseñado y Creado por Luis Montiel</p>
+                <div>
+                  <p>HTML</p>
+                  <p>CSS</p>
+                  <p>Javascript</p>
+                </div>
+              </div>
+        </footer>
+    </div>
+
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/pushbar.js@1.0.0/src/pushbar.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.1/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.1/ScrollToPlugin.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.1/ScrollTrigger.min.js"></script>
+    <script src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"></script>
+    <script src="../js/main.js"></script>
+    <script src="../js/animation.js"></script>
+    
+    <script type="text/javascript">
+    const pushbar = new Pushbar({
+            blur:true,
+            overlay:true,
+    });
+    </script>
+</body>
+</html>

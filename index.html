@@ -30,12 +30,12 @@
           <svg xmlns="http://www.w3.org/2000/svg" height="48" width="48" class="hambur" data-pushbar-target="mypushbar1" id="hambur">
             <path d="M5.55 36.55V32.9H42.5v3.65Zm0-10.75v-3.65H42.5v3.65Zm0-10.7v-3.65H42.5v3.65Z"/>
           </svg>
-          <nav class="nav" id="nav" >
+          <nav class="nav" id="nav">
             <div id="contentNav" class="contentNav">
-              <a class="linkNav reveal-sobre-mi" href="javascript:void(0)"><span>01.</span> Sobre mi</a>
-              <a class="linkNav reveal-proyectos" href="javascript:void(0)"><span>02.</span> Proyectos</a>
-              <a class="linkNav reveal-references" href="javascript:void(0)"><span>03.</span> Referencias</a>
-              <a class="linkNav reveal-contactame" href="javascript:void(0)"><span>04.</span> Contactame</a>
+              <a class="linkNav reveal-inicio activate" href="./index.html"><span>01.</span> Inicio</a>
+              <a class="linkNav reveal-sobre-mi" href="./pages/about.html"><span>02.</span> Sobre mi</a>
+              <a class="linkNav reveal-proyectos" href="./pages/project.html"><span>03.</span> Proyectos</a>
+              <a class="linkNav reveal-contactame" href="./pages/contact.html"><span>04.</span> Contactame</a>
             </div>
           </nav>
         </div>
@@ -194,16 +194,9 @@
       <div id="btn" class="btn">
         <ion-icon name="arrow-up-outline"></ion-icon>
       </div>
+      <div id="snackbar"></div>
       <footer id="footer">
         <div class="contentFooter">
-          <div class="author">
-            <p>Diseñado y Creado por Luis Montiel</p>
-            <div>
-              <p>HTML</p>
-              <p>CSS</p>
-              <p>Javascript</p>
-            </div>
-          </div>
           <div class="socialL">
             <a href="https://github.com/MrMontiel" target="_blank">
               <ion-icon name="logo-github"></ion-icon>
@@ -215,9 +208,16 @@
               <ion-icon name="logo-instagram"></ion-icon>
             </a>
           </div>
+          <div class="author">
+            <p>Diseñado y Creado por Luis Montiel</p>
+            <div>
+              <p>HTML</p>
+              <p>CSS</p>
+              <p>Javascript</p>
+            </div>
+          </div>
       </footer>
     </div>
-    <div id="snackbar"></div>
     <div id="openNav"  data-pushbar-id="mypushbar1" data-pushbar-direction="right">
       <ion-icon name="close-outline"></ion-icon>
     </div>
