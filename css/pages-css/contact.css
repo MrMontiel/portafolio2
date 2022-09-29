@@ -1,0 +1,23 @@
+.content-contact{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.content-contact h1{
+    font-size: var(--fz-subtitles-x428px);
+    color: white;
+    font-family: var(--font-sans);
+}
+
+.content-contact .formContact{
+    width: 500px;
+}
+
+@media screen and (max-width: 600px){
+    .content-contact .formContact{
+        width: 100%;
+    }
+}

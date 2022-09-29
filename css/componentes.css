@@ -1,14 +1,14 @@
 /* btnMs */
 .btnMs{
     padding: 10px 32px;
-    background: var(--gradiant);
+    background: none;
     color: var(--cl-txt-title);
     text-decoration: none;
     font-family: var(--font-mono);
     font-size: var(--fz-txt-button);
     font-weight: var(--wg-n);
     border-radius: 5px;
-    border: none;
+    border: 1px solid rgba(255, 255, 255, 0.219);
     cursor: pointer;
 }
 
@@ -69,7 +69,8 @@ section{
     height: 100%;
 }
 
-#sobremi, #proyectos, #referencias, #contactame{
+#sobremi, #proyectos, #referencias, #contactame,
+#sobremi-about, #sobremi-historia{
     margin-top: 100px;
     margin-bottom: 100px;
 }
@@ -370,11 +371,16 @@ section{
 /* .......................... Footer .......................... */
 
 #footer{
-    width: 100%;
-    height: max-content;
-    background-color: var(--bg-dark);
-    box-sizing: border-box;
-    padding: 20px 40px;
+    display: flex;
+    -moz-box-pack: center;
+    justify-content: center;
+    -moz-box-align: center;
+    align-items: center;
+    flex-direction: column;
+    height: auto;
+    min-height: 70px;
+    padding: 15px;
+    text-align: center;
 }
 
 .contentFooter{

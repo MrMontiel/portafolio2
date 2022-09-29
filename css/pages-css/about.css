@@ -1,0 +1,152 @@
+.content-sobremi-about{
+    width: 100%;
+}
+
+.one-title{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.one-title h1{
+    width: 350px;
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 62px;
+    color: white;
+}
+
+.one-title h3{
+    font-family: var(--font-mono);
+    font-size: var(--fz-subtitles-x428px);
+    font-weight: 300;
+    color: white;
+}
+
+.one-title .btnAbout, .content-contact .btnAbout{
+    margin-top: 20px;
+}
+
+.content-section-one{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.habilidades{
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px;
+}
+
+.content-habilidad{
+    background: #1F1F31;
+    border-radius: 5px;
+    box-sizing: border-box;
+    padding: 10px;
+}
+
+.content-habilidad h3{
+    font-family: var(--font-sans);
+    color: white;
+    font-size: var(--fz-paragraph);
+}
+
+.content-habilidad p{
+    font-size: 12px;
+    font-family: var(--font-sans);
+    color: #A5A5AD;
+}
+
+.content-sobremi-historia h1, .content-contact h1{
+    font-family: var(--font-sans);
+    font-size: var(--fz-subtitles-x428px);
+    color: white;
+    font-weight: 600;
+}
+
+.content-sobremi-historia p{
+    font-family: var(--font-sans);
+    font-size: var(--fz-paragraph);
+    color: #A5A5AD;
+}
+
+.historia-one, .historia-two{
+    display: flex;
+    justify-content: space-between;
+}
+
+.historia-start, .historia-bachiller,
+.historia-mintic, .historia-sena{
+    width: 47%;
+}
+
+.historia-bachiller, .historia-sena{
+    margin-top: 220px;
+}
+
+
+.section-contact{
+    width: 100%;
+    background-color: var(--blue-dark);
+}
+
+.content-contact{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    padding: 70px;
+}
+
+.content-contact h1{
+    text-align: center;
+}
+
+.content-contact p{
+    width: 370px;
+    font-family: var(--font-sans);
+    font-size: var(--fz-paragraph);
+    text-align: center;
+    color: white;
+}
+
+@media screen and (max-width: 768px){
+
+    .one-image{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 428px){
+    .one-title h1{
+        width: 100%;
+        font-size: 42px;
+    }
+
+    .one-title h3{
+        font-size: var(--fz-paragraph);
+    }
+
+    .historia-one, .historia-two{
+        flex-direction: column;
+    }
+    
+    .historia-start, .historia-bachiller,
+    .historia-mintic, .historia-sena{
+        width: 100%;
+        margin: 20px 0px;
+    }
+    
+    .historia-bachiller, .historia-sena{
+        margin-top: 0px;
+    }
+
+    .content-contact p{
+        width: 100%;
+    }
+}

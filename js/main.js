@@ -5,13 +5,6 @@ let linkNav = contentNav.getElementsByClassName("linkNav");
 
 for(let i = 0; i<linkNav.length; i++){
     linkNav[i].addEventListener("click", function(){
-        gsap.to(window, {
-            duration: 0.5, 
-            scrollTo:{
-                y:".section" + (i + 1), 
-                offsetY:70
-            }
-        });
         let current = document.getElementsByClassName("activate");
         if(current.length > 0){
             current[0].className = current[0].className.replace(" activate", "");
@@ -78,3 +71,4 @@ const showSnackbar = (msg) => {
         snackbar.classList.remove("show");
     }, 3000);
 };
+

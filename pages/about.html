@@ -7,6 +7,7 @@
     <!-- CSS -->
     <link rel="stylesheet" href="../css/style.css" />
     <link rel="stylesheet" href="../css/componentes.css" />
+    <link rel="stylesheet" href="../css/pages-css/about.css">
     <link rel="stylesheet" href="../css/normalize.css" />
     <link rel="stylesheet" href="../css/pushbar.min.css">
     <!-- Fonts -->
@@ -36,47 +37,75 @@
               </nav>
             </div>
         </header>
-        <section id="sobremi" class="section1">
-            <div class="contentSobremi">
-              <div class="titles">
-                  <h1>Contemos una historia ~</h1>
-                  <p>05/09/2003</p>
+        <section id="sobremi-about">
+          <div class="content-sobremi-about">
+            <div class="content-section-one">
+              <div class="one-title">
+                <h1>Hola, Soy Luis Montiel </h1>
+                <h3>Desarrollador de Software</h3>
+                <a class="btnMs btnAbout" id="btn-about" href="javascript:void(0)">Continuar</a>
               </div>
-              <div class="contentSobremiText">
-                <div class="textSobremi">
-                  <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin
-                    tincidunt est sed pharetra gravida. Pellentesque sed suscipit
-                    elit, sed faucibus est. Quisque ut neque ante. In eget finibus
-                    sapien. Vivamus vel nulla orci. Nunc maximus nisi nec lacus
-                    vestibulum congue. Nulla consectetur eu lorem eu interdum.
-                  </p>
-                  <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin
-                    tincidunt est sed pharetra gravida. Pellentesque sed suscipit
-                    elit, sed faucibus est.
-                  </p>
-                  <div class="listHerr">
-                    <ul>
-                        <li class="herr python">Python</li>
-                        <li class="herr java">Java</li>
-                        <li class="herr html">HTML</li>
-                        <li class="herr css">CSS</li>
-                    </ul>
-                  </div>
-                </div>
-                <div class="imageSobremi">
-                  <img src="../image/imgProfile.png" alt="" />
-                </div>
+              <div class="one-image">
+                <img src="../image/se 1.png" alt="">
               </div>
             </div>
+            <div class="habilidades">
+              <div class="content-habilidad">
+                <h3>Responsable</h3>
+                <p>Siempre centrado en que lo primero es primero.</p>
+              </div>
+              <div class="content-habilidad">
+                <h3>Creativo</h3>
+                <p>La creatividad es un pilar fundamental en mi vida.</p>
+              </div>
+              <div class="content-habilidad">
+                <h3>Persistente</h3>
+                <p>Insistir, persistir, resistir y nunca desistir.</p>
+              </div>
+              <div class="content-habilidad">
+                <h3>Amigable</h3>
+                <p>Ayudar a los demás, eso es algo que tengo presente desde niño.</p>
+              </div>
+            </div>
+          </div>
         </section>
-        <div id="openNav"  data-pushbar-id="mypushbar1" data-pushbar-direction="right">
-            <ion-icon name="close-outline"></ion-icon>
+        <section id="sobremi-historia">
+          <div class="content-sobremi-historia">
+            <div class="historia-one">
+              <div class="historia-start">
+                <h1>Empecemos esta historia</h1>
+                <p>¡Hola! Mi nombre es Luis y me gusta crear cosas para la web. Mi interés en el desarrollo web comenzó en 2021 cuando decidí implementar los sitios web que estaba diseñando - ¡gracias a ello encontré el trabajo al que me quiero dedicar de por vida!<br>
+                  Quiero darles un recorrido por momentos cruciales en mi vida. Estos momentos me llevaron a donde estoy ahora mismo.</p>
+              </div>
+              <div class="historia-bachiller">
+                <h1>2020 - Bachiller Académico</h1>
+                <p>Luego de 11 años estudiando en una institución de carácter público logré obtener mi carton de bachiller, con mucho esfuerzo, dedicación y entuciasmo se pudo. <br>
+                  No fue facil pero fue una de mis mejores experiencias, momentos muy lindos que quedan guardados en mi memoria.</p>
+              </div>
+            </div>
+            <div class="historia-two">
+              <div class="historia-mintic">
+                <h1>2021 - MinTIC 2022</h1>
+                <p>No lograba entrar a la universidad y ya me estaba desilucionando. El tiempo corre y los problemas se aumentan. Logré pasar al proyecto Mintic 2022 y estudiar virtual Desarrollo de Software y Movil con la Universidad del Norte.</p>
+              </div>
+              <div class="historia-sena">
+                <h1>2022 - ADSO</h1>
+                <p>Actualmente me encuentro estudiando Analisis y Desarrollo de Software con el SENA, Fue una dicha por empezar este nuevo reto de la mano de expertos en el tema.</p>
+              </div>
+            </div>
+          </div>
+        </section>
+        <div class="section-contact">
+          <div class="content-contact">
+            <h1>¡Ponte en contacto conmigo!</h1>
+            <p>Si quieres que te ayude, desarrolle algún producto o servicio, puedes comunicarte conmigo en el siguiente enlace</p>
+            <a class="btnMs btnAbout" href="javascript:void(0)" target="_blank">Contactar</a>
+          </div>
         </div>
         <div id="btn" class="btn">
             <ion-icon name="arrow-up-outline"></ion-icon>
         </div>
+        
         <footer id="footer">
             <div class="contentFooter">
                 <div class="socialL">
@@ -100,7 +129,9 @@
               </div>
         </footer>
     </div>
-
+    <div id="openNav"  data-pushbar-id="mypushbar1" data-pushbar-direction="right">
+      <ion-icon name="close-outline"></ion-icon>
+    </div>
     <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/pushbar.js@1.0.0/src/pushbar.min.js"></script>
@@ -116,6 +147,19 @@
             blur:true,
             overlay:true,
     });
+
+    
+    const btnAbout = document.getElementById("btn-about");
+    btnAbout.addEventListener("click", ()=>{
+        gsap.to(window, 
+            {
+                duration: 1, 
+                scrollTo:{
+                    y:"#sobremi-historia", 
+                    offsetY:70
+                }
+            });
+    })
     </script>
 </body>
 </html>
