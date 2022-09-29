@@ -11,7 +11,7 @@
 
 .one-title h1{
     width: 350px;
-    font-family: 'Outfit';
+    font-family: var(--font-mono);
     font-style: normal;
     font-weight: 600;
     font-size: 62px;
